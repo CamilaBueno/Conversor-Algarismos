@@ -1,0 +1,27 @@
+{
+  "name": "conversor-algarismos",
+  "version": "1.0.0",
+  "description": "Converte números arábicos em romanos e vice-versa.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "intToRoman()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaBueno/Conversor-Algarismos.git"
+  },
+  "keywords": [
+    "números",
+    "romanos",
+    "arábicos"
+  ],
+  "author": "Camila Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaBueno/Conversor-Algarismos/issues"
+  },
+  "homepage": "https://github.com/CamilaBueno/Conversor-Algarismos#readme"
+}
