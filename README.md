@@ -10,7 +10,7 @@ Exemplo de uso: $node
     intToRoman(20); //'XX'
 
 >> let romanToInt = require("Conversor-Algarismos") 
-   romanToInt("X"); // 20 
+   romanToInt("X"); // 10 
 
 versão 1.0.0 funcionalidades: Converte os números arábicos em romanos e faz o inverso convertendo os números romanos em arábicos  - do número 1 até o número 3999; 
 
@@ -20,7 +20,7 @@ Proceda com a instalação com $npm install Conversor-Algarismos
 
 Roadmap oficial do projeto
 
-versão 2.0.0 (previsão outubro/2018) Correção de bugs - converter os números romanos inseridos em letra minúscila para maiúscula .
+versão 2.0.0 (previsão outubro/2018) 
 Implementar a funcionalidade do número 4000 até o número 5000.
 README translated to english;
 

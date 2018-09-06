@@ -26,8 +26,8 @@ describe("intToRoman()", function () {
 });
 
 describe("romanToInt()", function () {
-  it("Deve retornar 10", () => {
-    assert.equal(romanToInt("X"), 10);
+  it("Deve retornar 15", () => {
+    assert.equal(romanToInt("XV"), 15);
   });
   it("Deve retornar 25", () => {
     assert.equal(romanToInt("XXV"), 25);
@@ -43,5 +43,11 @@ describe("romanToInt()", function () {
   });
   it("Deve retornar false", () => {
     assert.equal(romanToInt(123), false);
+  });
+  it("Deve retornar 10", () => {
+    assert.equal(romanToInt("x"), 10);
+  });
+  it("Deve retornar 3999", () => {
+    assert.equal(romanToInt("mmmcmxcix"), 3999);
   });
 });
