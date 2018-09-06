@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/CamilaBueno/Conversor-Algarismos/issues"
   },
-  "homepage": "https://github.com/CamilaBueno/Conversor-Algarismos#readme"
+  "homepage": "https://github.com/CamilaBueno/Conversor-Algarismos#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "eslint": "^5.5.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
 }
