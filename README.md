@@ -3,10 +3,10 @@ Produto final do sprint 4 - Biblioteca que converte os números arábicos em rom
 Conversor-Algarismos v.1.0.0 Esta biblioteca se destina à conversão dos números arábicos em números romanos e também o inverso(romanos para arábicos), para uso em aplicações web. Na versão atual é capaz de converter os números: Arábicos em Romanos e Romanos em Arábicos  - do número 1 até o número 3999;
 
 Os métodos utilizados na biblioteca são: intToRoman(num);
-
+romanToInt(str)
 Exemplo de uso: $node
 
- >> let intToRoman = require("Conversor-Algarismos") 
+ - let intToRoman = require("Conversor-Algarismos") 
     intToRoman(20); //'XX'
 
 >> let romanToInt = require("Conversor-Algarismos") 
