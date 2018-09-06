@@ -6,10 +6,10 @@ Os métodos utilizados na biblioteca são: intToRoman(num);
 
 Exemplo de uso: $node
 
- >> let intToRoman = require("Conversor-Algarismos") 
+ - let intToRoman = require("Conversor-Algarismos") 
     intToRoman(20); //'XX'
 
->> let romanToInt = require("Conversor-Algarismos") 
+- let romanToInt = require("Conversor-Algarismos") 
    romanToInt("X"); // 20 
 
 versão 1.0.0 funcionalidades: Converte os números arábicos em romanos e faz o inverso convertendo os números romanos em arábicos  - do número 1 até o número 3999; 
